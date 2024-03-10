@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+       width: 88%;
+    background-color: white;
+}
+
+/* NAV BAR */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+nav p:hover{
+    color: rgb(194, 121, 11);
+    cursor: pointer;
+    
+}
+nav li{
+    list-style-type: none;
+}
+.home li:nth-child(1) a {
+    color: rgb(194, 121, 11);
+}
+.home li:nth-child(1) a:hover {
+    color: yellow;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    gap:1rem
+}
+
+
+.btn{
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    background-color:rgb(194, 121, 11);
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(110, 13, 13);
+}
+/* POSINING ELEMENT USING FLOAT */
+.container1{
+    height: 60vh;
+    background-color: rgb(97, 96, 96);
+    text-align: center;
+}
+.container1 h2{
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    color:white
+}
+
+.box1 {
+    float: left;
+    height: 80%;
+    border: 2px solid white;
+    width: 30%;
+    margin-left: 1rem;
+    padding-top: 3rem;
+}
+
+
+.box3 {
+    float: right;
+    height: 80%;
+    border: 2px solid white;
+    width: 30%;
+    margin-right: 3.4rem;
+    padding-top: 3rem;
+}
+.box2 {
+    float: right;
+    height: 80%;
+    border: 2px solid white;
+    width: 30%;
+    margin-right: 1rem;
+    padding-top: 3rem;
+
+}
+.section{
+    margin: 5px;
+     padding: 1.6rem;
+    width: 6rem;
+    border: 2px solid white;
+    float:initial;
+    margin-left:10rem;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+.section4{
+        padding: 1.6rem;
+        margin: 5px;
+        width: 6rem;
+        border: 2px solid white;
+        float: initial;
+        clear: both;
+        margin-left: 10rem;
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+}
+.section5{
+    padding: 1.6rem;
+        width: 6rem;
+        border: 2px solid white;
+        background-color: black;
+        color: white;
+        margin-left: 3rem;
+        float: left;
+        border-radius: 7px;
+}
+.section6{
+    padding: 1.6rem;
+        width: 6rem;
+        border: 2px solid white;
+        background-color: black;
+        color: white;
+        margin-left: 1rem;
+        float: left;
+        border-radius: 7px;
+}
+
+.section1{
+    padding: 1.6rem;
+        width: 6rem;
+        border: 2px solid white;
+        float: initial;
+        clear: both;
+        margin-left: 10rem;
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+        margin-bottom: 4px;
+}
+.section2{
+     padding: 1.6rem;
+    width: 6rem;
+    border: 2px solid white;
+    float: left;
+    /* clear: left; */
+    margin-left: 10rem;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+.section0{
+    width: 6rem;
+    float: right;
+    height: 5.5rem;
+    margin-right: 3.3rem;
+    padding: 1rem;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+
+}
+
+
+/* POSITIONING */
+.container2{
+    text-align: center;
+    /* border: 2px solid black; */
+    padding-top: 20px;
+    /* height: 90rem; */
+
+}
+#middle{
+    position:absolute;
+
+    
+}
+.container2 h2{
+    margin: 2rem;
+}
+.container2{
+    margin-bottom: 1rem;
+        padding-top: 1rem;
+}
+.main{
+    display: flex;
+}
+.box{
+    height: 49vh;
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 1rem;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    
+}
+.sec{
+    padding: 1.6rem;
+        width: 6rem;
+        border: 2px solid white;
+        margin-left: 10rem;
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+}
+.relative{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+.absolute{
+    
+    position: absolute;
+    left:55.4rem;
+    top:49rem;
+}
+.scroll{
+    margin-left: 28rem;
+    height: 49vh;
+        border: 2px solid black;
+        width: 30%;
+        overflow: scroll;
+        margin-bottom: 3rem;
+}
+/* Container three */
+.container3{
+    background-color: rgb(97, 96, 96);
+}
+.container3 h3{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+.centered-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 1rem;
+    
+
+}
+.flex_box{
+    padding: 1.3rem;
+    text-align: center;
+    width: 5rem;
+    border-radius: 10px ;
+    border: 2px solid white;
+    color: white;
+    background-color:black;
+} 
+
+
+.ten_boxes{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 1rem;
+   
+}
+
+.twenty_boxes{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.twen_twenty_one{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+}
+.size{
+    border-top: 3px solid white;
+    width:50rem;
+    margin-left: 16rem;
+}
+.flex_box1 {
+    padding: 1.3rem;
+    height: 5rem;
+    text-align: center;
+    width: 50rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+}
+.big_box{
+    display: flex;
+    margin-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid white;
+    margin-bottom: 1rem;
+}
+.space_between{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.arrow{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 5px;
+    margin-left: 83rem;
+    font-size: 2rem;
+    background-color: brown;
+    margin-top: 5rem;
+    position: relative;
+    top: 1rem;
+}
+.fa-arrow-up{
+    color: blanchedalmond;
+}
+.arrow a{
+    text-decoration: none;
+}
+.arrow:hover{
+    background-color: blue;
+    color: black;
+}
+.footer{
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+    background-color: black;
+    padding: 1rem;
+}
+.fa-arrow-up{
+    margin-left: 1rem;
+}
+.fa-square-instagram:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-linkedin:hover{
+    color: white;
+    cursor: pointer;
+}
+.fa-youtube:hover{
+    color: white;
+    cursor: pointer;
+}
